@@ -89,7 +89,7 @@ async def mega_dl(bot, update):
                     if ".mp4" in fname or ".mkv" in fname:
                         tg_send_type="doc"
                     else:
-                        tg_send_type="doc"
+                        tg_send_type="unzip"
                 if ".mp4" in fname:
                     description_parts = fname.split(".mp4")
                     description = description_parts[0]
